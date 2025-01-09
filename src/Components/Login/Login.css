@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .login h4 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .text_area {
+    margin-bottom: 20px;
+  }
+  
+  .text_input {
+    width: 90%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .text_input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .text_input:focus {
+    border-color: #f1c40f;
+    box-shadow: 0 0 8px #f1c40f;
+  }
+  
+  .btn {
+    width: 60%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #033e10;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: #0040ffb3;
+  }
+  
+  .link {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #0a9257;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: #aa0d0d;
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .link-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .link-container .link {
+    font-size: 0.9rem;
+    color: #0f72be;
+    margin-left: 10px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-left:0px;
+  }
+  
+  .link-container .link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .link-containerone .link {
+    font-size: 0.9rem;
+    color: #0f72be;
+    margin-left: 10px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .link-containerone .link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  

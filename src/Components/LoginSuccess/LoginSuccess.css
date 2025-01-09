@@ -1,0 +1,35 @@
+.login-success {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .login-success h4 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    width: 60%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #06460e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: #00ff7b39;
+  }
