@@ -11,6 +11,7 @@ class SignUp extends Component {
       };
     }
   
+
     handleInputChange = (event) => {
       const { name, value } = event.target;
       this.setState({ [name]: value });
@@ -22,6 +23,8 @@ class SignUp extends Component {
       this.props.onSignUp(username, email, password);
     };
   
+
+
     render() {
       const { onBackToLogin } = this.props;
   
